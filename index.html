@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Treinador ENEM/ENCCEJA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI Treinador ENEM/ENCCEJA</h1>
+        <p>Prepare-se para seus exames com inteligência artificial!</p>
+    </header>
+
+    <main>
+        <section id="question-section">
+            <h2>Questão do Dia</h2>
+            <div id="question-card" class="card">
+                <p id="question-text">Carregando questão...</p>
+                <div id="options-container" class="options">
+                    </div>
+                <button id="submit-answer-btn">Responder</button>
+                <div id="feedback-message" class="feedback"></div>
+            </div>
+            <button id="load-next-question-btn">Próxima Questão</button>
+        </section>
+
+        <section id="status-section">
+            <h2>Seu Desempenho</h2>
+            <div class="card">
+                <p>Acertos: <span id="correct-count">0</span></p>
+                <p>Erros: <span id="incorrect-count">0</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AI Treinador. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
