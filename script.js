@@ -1,6 +1,6 @@
 // Este URL será o do seu backend no Railway.app após o deploy.
 // Por enquanto, usaremos um placeholder. Lembre-se de ATUALIZAR este valor!
-const BACKEND_BASE_URL = 'https://seu-backend-aqui.railway.app'; // Ex: https://enem-encceja-backend-xxxx.railway.app
+const BACKEND_BASE_URL = 'https://github.com/Nashet89ai/enem-encceja-backend'; // Ex: https://enem-encceja-backend-xxxx.railway.app
 
 const questionText = document.getElementById('question-text');
 const optionsContainer = document.getElementById('options-container');
